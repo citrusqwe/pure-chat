@@ -1,0 +1,17 @@
+{
+  "name": "pure-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/parcel src/index.html",
+    "build": "./node_modules/.bin/parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "typescript": "^5.1.3"
+  }
+}
